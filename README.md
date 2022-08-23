@@ -6,7 +6,7 @@ This exercise uses restaurant data created during my fullstack MIT course.
 
 # GraphQL
 
-## here are the query and mutation structures based on a GraphQL schema.
+## Here are the query and mutation structures based on a GraphQL schema.
 
 mutation editrestaurants($idd: Int = 1, $name: String = "OLDO"){
 editrestaurant(id: $idd, name: $name){
