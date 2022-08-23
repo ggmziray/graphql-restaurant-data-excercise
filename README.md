@@ -1,10 +1,12 @@
 # ExpressGraphQL
 
-This exercise uses restaurant data.
+The express-graphql module provides a simple way to create an Express server that runs a GraphQL API.
+
+This exercise uses restaurant data created during my fullstack MIT course. 
 
 # GraphQL
 
-## here are the query and mutation structures
+## here are the query and mutation structures based on a GraphQL schema.
 
 mutation editrestaurants($idd: Int = 1, $name: String = "OLDO"){
 editrestaurant(id: $idd, name: $name){
